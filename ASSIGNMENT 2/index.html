@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            
+            margin: 20px;
+        }
+        video, img {
+            max-width: 75%;
+            height: 500px;
+        }
+        section {
+             width: 900px;
+             height: max-content; 
+            display:flex;
+             gap: 20px;
+            flex-direction:column; 
+        }
+        h1,p{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Assignment option</a></li>
+            <li><a href="/ASSIGNMENT 2/table.html">table</a></li>
+        </ul>
+    </nav>
+
+    <h1>Welcome to My World</h1>
+    <p>Discover who I am through visuals, sound, and motion.</p>
+    
+    <!-- Responsive Picture Element -->
+    <picture>
+        <source srcset="assets/medium-shot-family.jpg" media="(min-width: 720px)">
+        <source srcset="assets/woman and baby.avif" media="(min-width: 790px)">
+        <source srcset="assets/woman and baby2.jpg" media="(max-width: 1000px)">
+        <img width="470px" height="500px" src="/assets/image me.jpg" alt="A representation of myself">
+    </picture>
+    <img src="/assets/image me.jpg" width="470px" height="500px" alt="Personality">
+
+    
+    <h2>My Voice</h2>
+    <audio controls>
+        <source src="/assets/meditation-music-without-nature-sound-256142.mp3" type="audio/ogg">
+        
+    </audio>
+    <section>
+        <h2>My Journey</h2>
+    <embed src="https://www.youtube.com/embed/EwMa3CqwYIw?si=tLYHvGDlfnZb3xMM" width="500px" height="300px" type="video/ogg">
+    <video controls>
+        <source src="https://videos.pexels.com/video-files/29781546/12796985_1440_2560_50fps.mp4" type="video/ogg">
+
+        
+    </section>
+    
+    </video>
+    
+    
+    
+</body>
+</html>
+
